@@ -5,7 +5,7 @@
   </head>
   <body>
     Paste Here:
-    <form action="#" method="post">
+    <form action="paste.php" method="post">
         <textarea rows="8" cols="50" name="paste_data" placeholder="Enter text..."></textarea>
         <br>
         <input type="submit"/>
