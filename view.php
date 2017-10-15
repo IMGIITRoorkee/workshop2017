@@ -2,6 +2,7 @@
     $unique_string = $_GET['s'];
     include('setup.php');
 
+    // Checking if the unique_string already exists
     $sql = "SELECT paste_data FROM pastebin WHERE unique_string='" . $unique_string . "';";
 
     $result = $conn->query($sql);
@@ -15,6 +16,7 @@
     if(!$paste_data){
         echo "Error 404 <hr> Page not found";
     }
+    // Rendering a html page containing the paste_date of the requested URL
     $render_content = '<html>
                         <head>
                           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
