@@ -1,0 +1,56 @@
+# Building your first dynamic web application
+
+This is the repository of the application developed during a workshop conducted on 15 October 2017 by [IMG](http://img.channeli.in) at IIT Roorkee.
+
+## Application developed: [Pastebin](https://pastebin.com/) clone
+The main objective of the workshop was to develop a dynamic application in a limited time of 3 hours. Pastebin is one of the useful applications that developers use and making a basic working clone is easy.
+
+## Technologies used (LAMP, WAMP or MAMP)
+* PHP
+* Apache
+* MySQL
+
+## Database table design
+```
++---------------+-----------------+------+-----+---------+----------------+
+| Field         | Type            | Null | Key | Default | Extra          |
++---------------+-----------------+------+-----+---------+----------------+
+| id            | int(6) unsigned | NO   | PRI | NULL    | auto_increment |
+| paste_data    | text            | YES  |     | NULL    |                |
+| unique_string | char(7)         | NO   |     | NULL    |                |
++---------------+-----------------+------+-----+---------+----------------+
+```
+
+## Reading material
+* HTML, CSS and JS
+  * https://www.w3schools.com/
+
+* PHP
+  * https://www.w3schools.com/php/ (Basics of PHP)
+  * https://github.com/ziadoz/awesome-php (Curated list of all the necessary resources, can be checked after mastering the basics)
+
+* Apache
+  * http://howtoubuntu.org/how-to-install-lamp-on-ubuntu (LAMP)
+  * http://www.wampserver.com/en/ (WAMP for Window users)
+  
+* MySQL
+  * https://www.w3schools.com/sql/default.asp (SQL)
+  * https://www.tutorialspoint.com/mysql/ (MySQL)
+  * https://www.w3schools.com/php/php_mysql_intro.asp (MySQL + PHP)
+  
+## Additional features that can be added to this project
+* Add user signup and login features
+  * Username/Email and Password based login with a Remember Me button
+* Frontend and backend validations for user signup
+  * https://www.w3schools.com/php/php_form_validation.asp
+  * https://www.w3schools.com/js/js_validation.asp
+* Show all the pastes of a particular user
+* Being able to edit a paste (Add authentication)
+* Make pastes public and private (Add flags)
+* Use sessions (https://www.w3schools.com/php/php_sessions.asp)
+* Use cookies (https://www.w3schools.com/php/php_cookies.asp)
+* Change password feature
+and a lot more.
+
+## Further queries
+Feel free to open issues if facing problems with the code written. IMG is always there to help.
