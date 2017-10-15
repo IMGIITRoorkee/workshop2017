@@ -17,14 +17,23 @@
     }
     $render_content = '<html>
                         <head>
-                            <title>Paste bin</title>
+                          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                          <link rel="stylesheet" href="css/main.css">
+                          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                          <title>Paste bin</title>
                         </head>
                         <body>
                           <div class="header">
-                            Paste bin
+                            Pastebin
                           </div>
-                          <div class="textbox">
-                            ' . $paste_data . '
+                          <div class="container">
+                            <div class="jumbotron remove-color">
+                              <h3 class="margin-left-40 margin-head">Here is the Content: </h3>
+                              <div class="textbox">
+                                ' . $paste_data . '
+                              </div>
+                            </div>
                           </div>
                         </body>
                        </html>';

@@ -1,0 +1,82 @@
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url('/pastebin/images/pastebin.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+
+.header {
+    height: 108px;
+    width: 100%;
+    text-align:center;
+    font-size: 32px;
+    line-height: 100px;
+    color: black;
+    font-weight: bold;
+    vertical-align: bottom;
+    }
+
+.pastetext {
+    width: 60%;
+    height: 150px;
+    resize: none;
+    margin-left: 40%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-weight : 700;
+    }
+
+.margin-left-40{
+    margin-left: 40%;
+}
+
+.margin-head{
+    margin-bottom: 20px;
+}
+
+.cover{
+    height: 170px;
+    background-color: black;
+}
+
+.remove-color{
+    background: transparent !important
+}
+   
+.show-url{
+    font-weight: bold;
+    font-size: 18px;
+    }
+
+.margin-left-40.show-url{
+    margin-right: 10px;
+}
+
+.btn-block-display{
+    margin-top: 7px;
+    display: block;
+    position: relative;
+}
+
+.textbox  { 
+    background: #fafafa; 
+    font-size: 15px; 
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    border-radius: 3px; 
+    padding: 13px 10px; 
+    width:60%;
+    float: right;
+    margin-bottom: 20px;
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #0a0a0a; 
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 ); 
+}
