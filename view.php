@@ -15,7 +15,19 @@
     if(!$paste_data){
         echo "Error 404 <hr> Page not found";
     }
-    else{
-        echo $paste_data;
-    }
+    $render_content = '<html>
+                        <head>
+                            <title>Paste bin</title>
+                        </head>
+                        <body>
+                          <div class="header">
+                            Paste bin
+                          </div>
+                          <div class="textbox">
+                            ' . $paste_data . '
+                          </div>
+                        </body>
+                       </html>';
+
+    echo $render_content;
 ?>
