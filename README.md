@@ -37,7 +37,13 @@ The main objective of the workshop was to develop a dynamic application in a lim
   * https://www.w3schools.com/sql/default.asp (SQL)
   * https://www.tutorialspoint.com/mysql/ (MySQL)
   * https://www.w3schools.com/php/php_mysql_intro.asp (MySQL + PHP)
-  
+
+## Step by step development
+The commit history can be checked out to get the insights of the different stages of development. Can be seen [here](https://github.com/IMGIITRoorkee/workshop2017/commits)
+
+## Setup
+Detailed guidelines for setting up the project can be viewed at [SETUP.md](https://github.com/IMGIITRoorkee/workshop2017/blob/master/SETUP.md)
+
 ## Additional features that can be added to this project
 * Add user signup and login features
   * Username/Email and Password based login with a Remember Me button
